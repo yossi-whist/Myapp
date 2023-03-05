@@ -8,4 +8,4 @@ def ip():
     local_ip = socket.gethostbyname(socket.gethostname())
     return "[+] Your local IP is :" + local_ip
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=9090)
+    app.run(host='0.0.0.0')

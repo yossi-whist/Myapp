@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/yossid4/Myapp'
+        git 'git@github.com:yossid4/Myapp.git'
       }
     }
 
